@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click To Login</string>
+    <string name="tap_to_register">Tap to register</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="age">Age</string>
+    <string name="sap">SAP</string>
+    <string name="done">Done</string>
+    <string name="daily_tracker">Daily Tracker</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="tracker">Tracker</string>
+    <string name="submit">Submit\n</string>
+    <string name="reps_per_set">Enter Reps\n</string>
+    <string name="number_of_sets">Enter Sets</string>
+    <string name="date">Date</string>
+    <string name="add">+</string>
+    <string name="track">Track</string>
+    <string name="start_session">Start Session</string>
+    <string name="appName">FitSync</string>
+    <string name="welcome_back">Welcome Back User</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="water">Stay Hydrated</string>
+    <string name="track_exercises">TRACK EXERCISES</string>
+
+    <string-array name="body_parts_array">
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Legs</item>
+        <item>Arms</item>
+    </string-array>
+
+    <string-array name="chest_exercises_array">
+        <item>Bench Press</item>
+        <item>Push-Ups</item>
+        <item>Dumbbell Flyes</item>
+        <item>Chest Dips</item>
+        <item>Incline Bench Press</item>
+    </string-array>
+
+    <string-array name="back_exercises_array">
+        <item>Pull-Ups</item>
+        <item>Deadlifts</item>
+        <item>Barbell Rows</item>
+        <item>Lat Pulldowns</item>
+        <item>T-Bar Rows</item>
+    </string-array>
+
+    <string-array name="leg_exercises_array">
+        <item>Squats</item>
+        <item>Lunges</item>
+        <item>Leg Press</item>
+        <item>Deadlifts</item>
+        <item>Leg Curls</item>
+    </string-array>
+
+    <string-array name="arm_exercises_array">
+        <item>Bicep Curls</item>
+        <item>Tricep Dips</item>
+        <item>Hammer Curls</item>
+        <item>Tricep Extensions</item>
+        <item>Barbell Bicep Curls</item>
+    </string-array>
+
+    <string name="s">Discover Exercise</string>
+    <string name="se">Various Back Exercise</string>
+    <string name="deadlift">DEADLIFT</string>
+    <string name="ld">LAT PULL DOWN</string>
+    <string name="chin_up">CHIN-UP</string>
+    <string name="pull_ups">PULL UPS</string>
+    <string name="sr">SEATED CABLE ROWING</string>
+    <string name="dint">Deadlift</string>
+    <string name="deadlift_steps">1. Setup with feet hip-width apart, barbell in front.\n\n2. Grip bar with overhand or mixed grip.\n\n3. Keep back flat, chest up.\n\n4. Lift by pushing through heels, extending hips and knees.\n\n5. Lower by hinging at hips, bending knees.</string>
+    <string name="deadlift_muscles">\nPrimary: Hamstrings, glutes, lower back.\nSecondary: Core, grip, upper back.</string>
+    <string name="dl">Video Tutorial</string>
+    <string name="ce">Various Chest Exercise</string>
+    <string name="cp">CHEST PRESS</string>
+    <string name="cb">CHEST FLY</string>
+    <string name="select_target">Select Target Muscle</string>
+    <string name="select_exe">Select Exercise</string>
+
+</resources>

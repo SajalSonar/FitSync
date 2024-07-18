@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1016023583241",
+    "firebase_url": "https://fitnesstracker-cea51-default-rtdb.firebaseio.com",
+    "project_id": "fitnesstracker-cea51",
+    "storage_bucket": "fitnesstracker-cea51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016023583241:android:6ca67774bbde4096fcc6d8",
+        "android_client_info": {
+          "package_name": "com.example.finalfitnessmad"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdlE-mA3C-_pYM_4QwtvScqBgyJ7Po9GA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

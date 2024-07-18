@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".activity_deadlift">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dis1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/add"
+            android:src="@drawable/weights" />
+
+        <ImageView
+            android:id="@+id/profile2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/add"
+            android:src="@drawable/user__1_" />
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="252dp"
+            android:layout_height="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:textStyle="bold"
+            android:layout_toStartOf="@id/profile2"
+            android:layout_toEndOf="@id/dis1"
+            android:gravity="center"
+            android:text="@string/appName"
+            android:textSize="35sp"
+            android:textColor="@color/text"/>
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="25dp"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="190dp"
+                app:cardElevation="10dp"
+                android:padding="6dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/back1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@string/deadlift"
+                        android:src="@drawable/ba" />
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/textOverlay1"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_centerInParent="true"-->
+<!--                        android:text="@string/deadlift"-->
+<!--                        android:textColor="#FFFFFF"-->
+<!--                        android:textSize="20sp"-->
+<!--                        android:textStyle="bold" />-->
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dint"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="@color/text"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deadlift_steps"
+                android:textSize="18sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/text"
+                android:padding="3dp"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/deadlift_muscles"
+                android:textSize="18sp"
+                android:layout_margin="3dp"
+                android:textColor="@color/text"
+                android:padding="3dp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:paddingTop="15dp"
+                android:id="@+id/dl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Video Tutorial"
+                android:textSize="15sp"
+                android:textColor="@color/link"
+                android:textAlignment="center"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

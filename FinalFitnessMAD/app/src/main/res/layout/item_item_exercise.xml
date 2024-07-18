@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/textViewExercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/partAndExe"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:id="@+id/setAndReps"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/text"/>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/home2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/add"
+            android:src="@drawable/home" />
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/home2"
+            android:layout_toStartOf="@+id/profile2"
+            android:gravity="center"
+            android:layout_marginStart="8dp"
+            android:text="@string/appName"
+            android:textSize="24sp"
+            android:textColor="@color/text"/>
+
+        <ImageView
+            android:id="@+id/profile2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/add"
+            android:src="@drawable/user__1_" />
+
+    </RelativeLayout>
+
+    <!-- Weight Input Section -->
+    <LinearLayout
+        android:id="@+id/weight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/header_layout"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/weightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your weight (kg):"
+            android:textSize="18sp"
+            android:textColor="@color/text"/>
+
+        <EditText
+            android:id="@+id/weightEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="Weight"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:backgroundTint="@color/btn_background"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Calories"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/btn_background"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@color/text"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <!-- Calories Section -->
+    <LinearLayout
+        android:id="@+id/calories_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/weight_layout"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/addCaloriesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Calories"
+            android:backgroundTint="@color/btn_background"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/caloriesConsumedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories Consumed: 0"
+            android:textSize="18sp"
+            android:textColor="@color/text"
+            android:layout_marginTop="16dp"/>
+
+        <ProgressBar
+            android:id="@+id/t_progressbar1"
+            style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+    <!-- Water Section -->
+    <LinearLayout
+        android:id="@+id/water_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/calories_layout"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/addWaterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Water"
+            android:backgroundTint="@color/btn_background"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/waterConsumedTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Consumed: 0 ml/ 3500ml"
+            android:textSize="18sp"
+            android:textColor="@color/text"
+            android:layout_marginTop="16dp"/>
+
+        <ProgressBar
+            android:id="@+id/t_progressbar2"
+            style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="3500"
+            android:progress="0"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

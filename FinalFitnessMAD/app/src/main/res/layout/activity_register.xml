@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20sp"
+        android:text="@string/register"
+        android:textColor="@color/text"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/text"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:textColor="@color/text"
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:textColorHint="@color/text"
+        android:layout_marginBottom="45sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:textColor="@color/text"
+            android:hint="@string/password"
+            android:password="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:textColorHint="@color/text"
+        android:layout_marginRight="25sp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:hint="@string/username"
+            android:textColor="@color/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:textColorHint="@color/text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/age"
+            android:textColor="@color/text"
+            android:hint="@string/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginBottom="45sp"
+        android:textColorHint="@color/text">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sap"
+            android:textColor="@color/text"
+            android:hint="@string/sap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="@string/register"
+        android:backgroundTint="@color/btn_background"
+        android:textColor="@color/btn_text"
+        android:id="@+id/register"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/text"
+        android:id="@+id/loginNow"
+        android:text="@string/click_to_login"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
