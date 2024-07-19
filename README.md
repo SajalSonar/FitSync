@@ -1,6 +1,6 @@
 **FitSync (Prototype) - Healthier Lifestyle Mobile Application**
 FitSync is a mobile application developed using Java and Android Studio, aimed at promoting a healthier lifestyle. This prototype integrates various features to help users manage their fitness and health goals efficiently.
-![image](https://github.com/user-attachments/assets/f568830b-a133-4dca-813e-b52c582c3717)
+![image](https://github.com/user-attachments/assets/2a52a091-0f24-4cd1-a264-fe48455adde4)
 
 **Features**
 Secure Registration and Login
