@@ -1,4 +1,8 @@
 # FitSync (Prototype) - Healthier Lifestyle Mobile Application
+## Authors
+- **Rajdeep Jadhav**
+- **Sajal Sonar**
+- **Janhavi Yadav**
 
 FitSync is a mobile application developed using Java and Android Studio, aimed at promoting a healthier lifestyle. This prototype integrates various features to help users manage their fitness and health goals efficiently.
 
